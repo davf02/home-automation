@@ -16,7 +16,7 @@ Do the same for accumulated energy yield:
 
 ![Alt text](accumulated_power_hardware.png)
 
-You should have to hardware of type "Modbus Read/Write Plugins for Domoticz" at the end.
+You should have two hardware of type "Modbus Read/Write Plugins for Domoticz" at the end.
 
 ## Domoticz devices
 Two devices should be available in device list. You can rename it at your convenience like me:
