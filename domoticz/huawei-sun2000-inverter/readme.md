@@ -27,6 +27,7 @@ If you cut off your wifi connection during the night (or in another situation), 
 
 To avoid this situation, you can create a Dummy device of type "Counter":
 ![Alt text](counter_device.png)
+
 Don't forget to set the type of counter on "Energy generated".
 
 After that, create a new dzEvent event with this code:
@@ -60,7 +61,7 @@ I do this to avoid a spike in the start-up history.
 With this fix, i've a serie of average value in the history:
 ![Alt text](history_with_fix.png)
 
-Without fix, i would have 272,13 Kwh on the firt day which would minimize the following days.
+Without fix, i would have 272,13 Kwh on the first day which would minimize the following days.
 
 At the end, i've two devices:
 ![Alt text](devices.png)
