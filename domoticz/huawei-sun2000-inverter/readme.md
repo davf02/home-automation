@@ -9,9 +9,11 @@ Firstable, I've check out an Elfin-EW11 device (https://www.amazon.com.be/s?k=El
 Now that your Elfin device is available on your network, you can install the domoticz plugin "Modbus Read/Write Plugins for Domoticz" by following this link: https://github.com/DomoticX/domoticz-modbus
 
 After that, for active power, add a new hardware with this configuration (replace TCP/IP by ip of your Elfin device):
+
 ![Alt text](active_power_hardware.png)
 
 Do the same for accumulated energy yield:
+
 ![Alt text](accumulated_power_hardware.png)
 
 You should have to hardware of type "Modbus Read/Write Plugins for Domoticz" at the end.
