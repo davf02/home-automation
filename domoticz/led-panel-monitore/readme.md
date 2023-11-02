@@ -1,5 +1,5 @@
 # Led panel alert
-To being alerted when a window kept open more than needed during the winter, I've develope a physical led panel which alert me by light up a led and enable a buzzer in some condition.
+To being alerted when a window kept open more than needed during the winter, I've developed a physical led panel which alert me by lighting up a led and enable a buzzer in some condition.
 It could be used in any other situation.
 
 *This component will be controlled from my existing Domoticz.*
@@ -14,7 +14,7 @@ It could be used in any other situation.
 
 ## Mounting
 
-### Electronic diagram on the board
+### Electronic diagram of the board
 ![Alt text](electronic_scheme.png)
 
 ### front of board
@@ -28,7 +28,7 @@ At the end, you connect the board to the Rpi via the Gpio.
 
 ## Domoticz on Led Panel
 ### Configure the hardware
-To control the led and buzzer, i've install a fresh instance of Domoticz and decide to use the "GPIO with sysfs" hardware to control the GPIO pin where are connected the leds and buzzer.
+To control the led and buzzer, i've installed a fresh instance of Domoticz and decided to use the "GPIO with sysfs" hardware to control the GPIO pin where are connected the leds and buzzer.
 
 ![Alt text](gpio_hardware.png)
 
@@ -43,12 +43,12 @@ echo out > /sys/class/gpio/gpio18/direction
 
 You can found more information here: https://www.domoticz.com/wiki/GPIO
 
-### Control the led and buzzer
+### Control the leds and buzzer
 Once done, you should find a device for each of enabled GPIO in the device list of Domoticz:
 
 ![Alt text](device_list.png)
 
-Give it a friendly name and that's it for the led panel.
+Give it a friendly name and that's it for the led panel. You should be able to light up each of the led and to enable the buzzer as needed.
 
 ## Control the led panel from my main Domoticz
 Now that i've a led panel, i would like to control it from my main Domoticz server.
