@@ -2,11 +2,11 @@
 Please find bellow method i've used to connect my huawei SUN2000-4KTL-L1 inverter to domoticz to get back the active power and accumulated energy yield.
 
 ## Hardware connection
-Firstable, I've check out an Elfin-EW11 device (https://www.amazon.com.be/s?k=Elfin-EW11&ref=nb_sb_noss) and follow the tutorial available here to connect/configure-it on the inverter: https://github.com/wlcrs/huawei_solar/wiki/Connecting-to-the-inverter#serial-connection-to-a-modbus-rtu-to-tcp-bridge. 
+Firstable, I've check out an [Elfin-EW11 device](https://www.amazon.com.be/s?k=Elfin-EW11&ref=nb_sb_noss) and follow the tutorial available here to connect/configure-it on the inverter: https://github.com/wlcrs/huawei_solar/wiki/Connecting-to-the-inverter#serial-connection-to-a-modbus-rtu-to-tcp-bridge. 
 
 
 ## Domoticz Hardware configuration
-Now that your Elfin device is available on your network, you can install the domoticz plugin "Modbus Read/Write Plugins for Domoticz" by following this link: https://github.com/DomoticX/domoticz-modbus
+Now that your Elfin device is available on your network, you can install the domoticz plugin [Modbus Read/Write Plugins for Domoticz](https://github.com/DomoticX/domoticz-modbus).
 
 After that, for active power, add a new hardware with this configuration (replace TCP/IP by ip of your Elfin device):
 
@@ -67,6 +67,6 @@ At the end, i've two devices:
 ![Alt text](devices.png)
 
 # Resources
-Many thanks to writer of this two articles without which I would not have been able to carry out my project:
+Many thanks to writer of this two articles without whom I would not have been able to carry out my project:
 - https://github.com/wlcrs/huawei_solar/wiki/Connecting-to-the-inverter#serial-connection-to-a-modbus-rtu-to-tcp-bridge
 - https://github.com/DomoticX/domoticz-modbus
