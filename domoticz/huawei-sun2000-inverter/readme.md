@@ -67,6 +67,6 @@ At the end, i've two devices:
 ![Alt text](devices.png)
 
 # Resources
-Many thanks to writer of this two articles without which I would not have been able to carry out my project:
+Many thanks to writer of this two articles without whom I would not have been able to carry out my project:
 - https://github.com/wlcrs/huawei_solar/wiki/Connecting-to-the-inverter#serial-connection-to-a-modbus-rtu-to-tcp-bridge
 - https://github.com/DomoticX/domoticz-modbus
