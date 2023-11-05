@@ -9,11 +9,11 @@ Prerequisites:
 ## The gas meter
 I've a gas meter of type Elster BK-G4:
 
-![Alt text](image\compteur.jpg)
+![Alt text](image/compteur.jpg)
 
 This counter allow us to measure the consumption with impulsion. The impulsion can be measure under the meter display.
 
-![Alt text](image\compteur-detail.jpg)
+![Alt text](image/compteur-detail.jpg)
 
 After several tests, i've found that the impulsion is localized in the blue zone (drawn on the previous picture).
 We can capture the impulsion with a reed switch.
@@ -24,24 +24,24 @@ We can capture the impulsion with a reed switch.
 
 To measure the impulsion and transfer it to Domoticz I use an older Chacon door opening sensor which works in RF433Mhz. I open the device and localized the reed switch.
 
-![Alt text](image\door-switch-front.jpg)
+![Alt text](image/door-switch-front.jpg)
 
-![Alt text](image\dorr-switch-back.jpg)
+![Alt text](image/dorr-switch-back.jpg)
 
 I uncouple the reed switch of the board and replace the contact by a two wire cable. At the other extremity of the cable, the reed switch is connected.
 
-![Alt text](image\mount-1.jpg)
+![Alt text](image/mount-1.jpg)
 
 ### Battery 
 
 The original battery is a 3.2V CR2032. This battery can't survive more than 1-2 months in usage.
 To increase the battery life, we can replace the CR2032 by a serie of rechargeable 3XAA 1.2V batteries of 2800mAh. *Put a power voltage regulator could be a good idea.*
 
-![Alt text](image\mount-2.jpg)
+![Alt text](image/mount-2.jpg)
 
 ### The final result
 
-![Alt text](image\mount-3.jpg)
+![Alt text](image/mount-3.jpg)
 
 ### Connection on meter
 
