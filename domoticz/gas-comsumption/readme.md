@@ -37,6 +37,8 @@ I uncouple the reed switch of the board and replace the contact by a two wire ca
 The original battery is a 3.2V CR2032. This battery can't survive more than 1-2 months in usage.
 To increase the battery life, we can replace the CR2032 by a serie of rechargeable 3XAA 1.2V batteries of 2800mAh. *Put a power voltage regulator could be a good idea.*
 
+*Update: I've removed one battery. The total voltage was effectively too high. With two batteries, there is nearby 2.7V which is enough.*
+
 ![Alt text](image/mount-2.jpg)
 
 ### The final result
